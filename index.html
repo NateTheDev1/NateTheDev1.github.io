@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Nathaniel Richards, fullstack developer">
+  <meta name="author" content="Nathaniel Richards">
 
   <title>Nathaniel Richards</title>
 
@@ -22,7 +22,9 @@
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
 </head>
+<style>
 
+</style>
 <body id="page-top">
 
   <!-- Navigation -->
@@ -41,13 +43,10 @@
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
+        <a class="js-scroll-trigger" href="#services">Skills</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -55,11 +54,11 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Nathaniel Richards</h1>
-      <h3 class="mb-5">
+      <h1 class="mb-1 text-light" style=" text-shadow: 2px 2px black;">Nathaniel Richards</h1>
+      <h3 class="mb-5 text-warning" style=" text-shadow: 2px 2px black;">
         <em>Fullstack Web Developer</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Check Me Out</a>
+      <a class="btn btn-outline-warning btn-xl js-scroll-trigger" href="#about" style="color: white;">Check Me Out</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -69,24 +68,24 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>More Than A Web Developer</h2>
+          <h2 class="text-warning" >More Than A Web Developer</h2>
           <p class="lead mb-5">
-          I am an engineer. I am passionate about designing, developing, and shipping production quality technology. 
+          I am an engineer that is passionate about designing, developing, and shipping production quality technology. 
           I strive to bring ideas to life, let me work with you and let's see what we can make!
           </p>
-          <p class="lead mb-5"><i class="fas fa-location-arrow"> Muskegon, MI</i></p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Skills</a>
+          <a class="btn btn-outline-warning btn-xl js-scroll-trigger" style="color: black;" href="#services">Skills</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-dark text-white text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Skills</h3>
-        <h2 class="mb-5">Tools And Technologies</h2>
+
+        <h2 class="mb-0 text-warning">Skills</h2>
+        <h3 class="text-light mb-5">Tools And Technologies</h3>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -140,24 +139,37 @@
   </section> -->
 
   <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
+  <!-- <section class="content-section" id="portfolio">
     <div class="container">
       <div class="content-section-heading text-center">
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+        <div class="col-lg-12">
+          <a class="portfolio-item" href="https://github.com/NateTheDev1/ReactTodoWithHooks">
             <span class="caption">
               <span class="caption-content">
-                <h2>Stationary</h2>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <h2>React Todo</h2>
+                <p class="mb-0">A simple todo list using React</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="todo-list">
           </a>
-        </div>
+         </div>
+         <div class="col-lg-12">
+          <a class="portfolio-item" href="https://github.com/NateTheDev1/BadWeather">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Bad Weather</h2>
+                <p class="mb-0">A weather app with rude feedback</p>
+              </span> 
+            </span>
+            <img class="img-fluid" src="https://i.gyazo.com/7b8b3724d0c19715741e43c61e675458.png" alt="todo-list">
+          </a>
+         </div> -->
+         
+         <!--
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
@@ -189,11 +201,11 @@
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
+          </a> 
+        </div>-->
+      <!-- </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Call to Action -->
   <!-- <section class="content-section bg-primary text-white">
@@ -218,12 +230,12 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/NateTheWebDev">
-            <i class="icon-social-twitter"></i>
+          <a class="social-link rounded-circle text-warning mr-3 bg-dark" href="https://twitter.com/NateTheWebDev">
+            <i class="icon-social-twitter "></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://github.com/NateTheDev1">
+          <a class="social-link rounded-circle text-warning bg-dark" href="https://github.com/NateTheDev1">
             <i class="icon-social-github"></i>
           </a>
         </li>
